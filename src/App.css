@@ -1,0 +1,98 @@
+.logo {
+    background: linear-gradient(
+        90deg,
+        #f860d8 0.06%,
+        #5c4bf6 50.73%,
+        #45bcff 100.06%
+      ),
+      linear-gradient(0deg, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .active {
+    background: linear-gradient(
+        90deg,
+        #f860d8 0.06%,
+        #5c4bf6 50.73%,
+        #45bcff 100.06%
+      ),
+      linear-gradient(0deg, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent !important;
+  }
+  .ul:hover {
+    background: linear-gradient(
+        90deg,
+        #f860d8 0.06%,
+        #5c4bf6 50.73%,
+        #45bcff 100.06%
+      ),
+      linear-gradient(0deg, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+
+.bb{
+    background-image: url("assets/hero-image.webp");
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+
+}
+.ab{
+    position: absolute;
+    top: 0;
+    left: 20%;
+    z-index: -1;
+    
+
+}
+.button {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 50px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #000000;
+  background: #e5e7eb;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid none;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725AC1;
+}
+
+.button:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+.button:active {
+  transform: scale(0.9);
+}
+@media only screen and (max-width: 768px) {
+  .ab{
+    left: 10%;
+  }
+}
+@media only screen and (max-width: 450px){
+  .ab{
+    top: 5%;
+   
+    left: 5%;
+  }
+}
+@media only screen and (max-width: 290px){
+.bn{
+  width: 50px !important;
+}
+}
